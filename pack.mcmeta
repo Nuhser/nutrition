@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 1,
+		"description": "Reload after installing the pack. Requires nuhser core to be installed first!"
+	}
+}

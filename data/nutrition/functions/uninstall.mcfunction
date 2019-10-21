@@ -8,7 +8,15 @@ scoreboard objectives remove nu_fruit
 scoreboard objectives remove nu_vegetable
 scoreboard objectives remove nu_grain
 scoreboard objectives remove nu_dairy
+
+scoreboard objectives remove nu_protein_ex
+scoreboard objectives remove nu_fruit_ex
+scoreboard objectives remove nu_vegetable_ex
+scoreboard objectives remove nu_grain_ex
+scoreboard objectives remove nu_dairy_ex
+
 scoreboard objectives remove nu_food
+
 scoreboard objectives remove nutritions
 
 tag @a remove nu_initialized

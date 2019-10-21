@@ -13,6 +13,12 @@ scoreboard objectives add nu_vegetable dummy
 scoreboard objectives add nu_grain dummy
 scoreboard objectives add nu_dairy dummy
 
+# create effect scoreboard
+scoreboard objectives add nu_effect dummy
+
+# create hunger tracker
+scoreboard objectives add nu_food food
+
 # create info trigger
 scoreboard objectives add nutritions trigger
 

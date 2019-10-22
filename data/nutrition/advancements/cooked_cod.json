@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"cooked_cod_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_cod"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["cooked_cod_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_cooked_cod"
+	}
+}

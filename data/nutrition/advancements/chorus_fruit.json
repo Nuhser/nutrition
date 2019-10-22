@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"chorus_fruit_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chorus_fruit"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["chorus_fruit_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_chorus_fruit"
+	}
+}

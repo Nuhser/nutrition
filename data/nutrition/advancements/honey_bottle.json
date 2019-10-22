@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"honey_bottle_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:honey_bottle"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["honey_bottle_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_honey_bottle"
+	}
+}

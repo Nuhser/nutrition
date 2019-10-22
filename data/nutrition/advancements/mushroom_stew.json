@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"mushroom_stew_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:mushroom_stew"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["mushroom_stew_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_mushroom_stew"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"rotten_flesh_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rotten_flesh"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["rotten_flesh_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_rotten_flesh"
+	}
+}

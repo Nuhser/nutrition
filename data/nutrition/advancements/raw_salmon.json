@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"raw_salmon_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:raw_salmon"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["raw_salmon_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_raw_salmon"
+	}
+}

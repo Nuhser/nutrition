@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"beetroot_soup_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beetroot_soup"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["beetroot_soup_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_beetroot_soup"
+	}
+}

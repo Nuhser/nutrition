@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"cake_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cake"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["cake_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_cake"
+	}
+}

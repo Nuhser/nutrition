@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"suspicious_stew_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:suspicious_stew"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["suspicious_stew_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_suspicious_stew"
+	}
+}

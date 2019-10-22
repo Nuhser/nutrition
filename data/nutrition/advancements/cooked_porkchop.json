@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"cooked_porkchop_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_porkchop"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["cooked_porkchop_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_cooked_porkchop"
+	}
+}

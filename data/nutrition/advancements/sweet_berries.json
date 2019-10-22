@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"sweet_berries_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:sweet_berries"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["sweet_berries_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_sweet_berries"
+	}
+}

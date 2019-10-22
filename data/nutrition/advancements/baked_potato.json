@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"baked_potato_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:baked_potato"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["baked_potato_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_baked_potato"
+	}
+}

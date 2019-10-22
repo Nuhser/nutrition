@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"golden_carrot_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:golden_carrot"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["golden_carrot_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_golden_carrot"
+	}
+}

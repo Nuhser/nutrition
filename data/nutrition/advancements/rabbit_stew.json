@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"rabbit_stew_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rabbit_stew"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["rabbit_stew_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_rabbit_stew"
+	}
+}

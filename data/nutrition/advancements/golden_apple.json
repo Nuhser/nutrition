@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"golden_apple_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:golden_apple"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["golden_apple_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_golden_apple"
+	}
+}

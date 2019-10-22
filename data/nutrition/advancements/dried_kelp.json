@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"dried_kelp_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:dried_kelp"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["dried_kelp_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_dried_kelp"
+	}
+}

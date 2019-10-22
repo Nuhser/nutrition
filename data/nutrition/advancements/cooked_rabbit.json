@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"cooked_rabbit_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_rabbit"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["cooked_rabbit_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_cooked_rabbit"
+	}
+}

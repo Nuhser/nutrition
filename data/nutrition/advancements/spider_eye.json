@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"spider_eye_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spider_eye"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["spider_eye_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_spider_eye"
+	}
+}

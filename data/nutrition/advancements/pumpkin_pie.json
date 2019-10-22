@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"pumpkin_pie_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:pumpkin_pie"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["pumpkin_pie_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_pumpkin_pie"
+	}
+}

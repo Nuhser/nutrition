@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"raw_mutton_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:raw_mutton"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["raw_mutton_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_raw_mutton"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"pufferfish_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:pufferfish"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["pufferfish_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_pufferfish"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"milk_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:milk"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["milk_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_milk"
+	}
+}

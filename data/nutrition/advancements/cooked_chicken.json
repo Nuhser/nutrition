@@ -1,0 +1,19 @@
+{
+	"parent": "nutrition:root",
+	"criteria": {
+		"cooked_chicken_eaten": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_chicken"
+				}
+			}
+		}
+	},
+	"requirements": [
+		["cooked_chicken_eaten"]
+	],
+	"rewards": {
+		"function": "nutrition:eat/_cooked_chicken"
+	}
+}

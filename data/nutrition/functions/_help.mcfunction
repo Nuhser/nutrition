@@ -1,4 +1,4 @@
-#>
+#> This is the help function for Nutrition.
 # Called by: #nuhser_core:help <SERVER>
 
 #item for list of installed mods

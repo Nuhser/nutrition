@@ -1,4 +1,4 @@
-#>
+#> This is the uninstall function for Nutrition.
 # Called by: #nuhser_core:uninstall <SERVER>
 
 tellraw @a ["",{"text":"Nutrition successful uninstalled!","color":"green"}]

@@ -1,4 +1,4 @@
-#> 
+#> This function shows the player his current nutrition values, his active effects and the values of his selected item.
 # Called by: nutrition:_second <PLAYER>
 
 # calculate rounded scores

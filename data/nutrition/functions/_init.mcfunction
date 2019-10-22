@@ -1,4 +1,4 @@
-#>
+#> This is the initialization function for Nutrition.
 # Called by: #nuhser_core:init <SERVER>
 
 tellraw @a ["",{"text":"----------------------------------------"}]

@@ -5,34 +5,34 @@
 scoreboard players set @s nu_effect 0
 
 # check protein
-scoreboard players remove @s[scores={nu_protein_ex=..9}] nu_effect 2
-scoreboard players remove @s[scores={nu_protein_ex=10..29}] nu_effect 1
-scoreboard players add @s[scores={nu_protein_ex=75..89}] nu_effect 1
-scoreboard players add @s[scores={nu_protein_ex=90..}] nu_effect 2
+scoreboard players remove @s[scores={nu_protein_ex=..9000}] nu_effect 2
+scoreboard players remove @s[scores={nu_protein_ex=10000..29000}] nu_effect 1
+scoreboard players add @s[scores={nu_protein_ex=75000..89000}] nu_effect 1
+scoreboard players add @s[scores={nu_protein_ex=90000..}] nu_effect 2
 
 # check fruit
-scoreboard players remove @s[scores={nu_fruit_ex=..9}] nu_effect 2
-scoreboard players remove @s[scores={nu_fruit_ex=10..29}] nu_effect 1
-scoreboard players add @s[scores={nu_fruit_ex=75..89}] nu_effect 1
-scoreboard players add @s[scores={nu_fruit_ex=90..}] nu_effect 2
+scoreboard players remove @s[scores={nu_fruit_ex=..9000}] nu_effect 2
+scoreboard players remove @s[scores={nu_fruit_ex=10000..29000}] nu_effect 1
+scoreboard players add @s[scores={nu_fruit_ex=75000..89000}] nu_effect 1
+scoreboard players add @s[scores={nu_fruit_ex=90000..}] nu_effect 2
 
 # check vegetable
-scoreboard players remove @s[scores={nu_vegetable_ex=..9}] nu_effect 2
-scoreboard players remove @s[scores={nu_vegetable_ex=10..29}] nu_effect 1
-scoreboard players add @s[scores={nu_vegetable_ex=75..89}] nu_effect 1
-scoreboard players add @s[scores={nu_vegetable_ex=90..}] nu_effect 2
+scoreboard players remove @s[scores={nu_vegetable_ex=..9000}] nu_effect 2
+scoreboard players remove @s[scores={nu_vegetable_ex=10000..29000}] nu_effect 1
+scoreboard players add @s[scores={nu_vegetable_ex=75000..89000}] nu_effect 1
+scoreboard players add @s[scores={nu_vegetable_ex=90000..}] nu_effect 2
 
 # check grain
-scoreboard players remove @s[scores={nu_grain_ex=..9}] nu_effect 2
-scoreboard players remove @s[scores={nu_grain_ex=10..29}] nu_effect 1
-scoreboard players add @s[scores={nu_grain_ex=75..89}] nu_effect 1
-scoreboard players add @s[scores={nu_grain_ex=90..}] nu_effect 2
+scoreboard players remove @s[scores={nu_grain_ex=..9000}] nu_effect 2
+scoreboard players remove @s[scores={nu_grain_ex=10000..29000}] nu_effect 1
+scoreboard players add @s[scores={nu_grain_ex=75000..89000}] nu_effect 1
+scoreboard players add @s[scores={nu_grain_ex=90000..}] nu_effect 2
 
 # check dairy
-scoreboard players remove @s[scores={nu_dairy_ex=..9}] nu_effect 2
-scoreboard players remove @s[scores={nu_dairy_ex=10..29}] nu_effect 1
-scoreboard players add @s[scores={nu_dairy_ex=75..89}] nu_effect 1
-scoreboard players add @s[scores={nu_dairy_ex=90..}] nu_effect 2
+scoreboard players remove @s[scores={nu_dairy_ex=..9000}] nu_effect 2
+scoreboard players remove @s[scores={nu_dairy_ex=10000..29000}] nu_effect 1
+scoreboard players add @s[scores={nu_dairy_ex=75000..89000}] nu_effect 1
+scoreboard players add @s[scores={nu_dairy_ex=90000..}] nu_effect 2
 
 # give effects
 # nausea

@@ -1,4 +1,4 @@
-#> This function gets triggered when the player ate a honey_bottle.
+#> This function gets triggered when the player ate a honey_bottle. Upcoming 1.15
 # Called by: ADV. nutrition:honey_bottle <PLAYER>
 
 #FIXME: scoreboard name

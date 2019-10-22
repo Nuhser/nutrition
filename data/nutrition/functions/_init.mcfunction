@@ -23,8 +23,8 @@ scoreboard objectives add nu_dairy_ex dummy
 # create effect scoreboard
 scoreboard objectives add nu_effect dummy
 
-# create hunger tracker
-scoreboard objectives add nu_food food
+# create death tracker
+scoreboard objectives add nu_died deathCount
 
 # create info trigger
 scoreboard objectives add nutritions trigger

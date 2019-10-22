@@ -15,7 +15,9 @@ scoreboard objectives remove nu_vegetable_ex
 scoreboard objectives remove nu_grain_ex
 scoreboard objectives remove nu_dairy_ex
 
-scoreboard objectives remove nu_food
+scoreboard objectives remove nu_effect
+
+scoreboard objectives remove nu_died
 
 scoreboard objectives remove nutritions
 

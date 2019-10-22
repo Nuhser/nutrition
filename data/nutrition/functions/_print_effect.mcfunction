@@ -4,20 +4,24 @@
 # print header
 tellraw @s {"text": "\nCurrent effects based on your nutrition:", "italic": true}
 
-# print health boost
-tellraw @s[scores={nu_effect=1..3}] {"text": "1 Bonus Heart"}
-tellraw @s[scores={nu_effect=4..9}] {"text": "3 Bonus Hearts"}
-tellraw @s[scores={nu_effect=10..}] {"text": "5 Bonus Hearts"}
+# print haste
+tellraw @s[scores={nu_effect=10..}] {"text": "Haste II", "color": "dark_green"}
+
+# print regeneration
+tellraw @s[scores={nu_effect=7..}] {"text": "Regeneration II", "color": "dark_green"}
+
+# print resistance
+tellraw @s[scores={nu_effect=4..}] {"text": "Resistance II", "color": "dark_green"}
 
 # print speed
-tellraw @s[scores={nu_effect=7..}] {"text": "Speed II"}
+tellraw @s[scores={nu_effect=1..}] {"text": "Speed II", "color": "dark_green"}
 
 # print weakness
-tellraw @s[scores={nu_effect=-3..-1}] {"text": "Weakness I"}
-tellraw @s[scores={nu_effect=..-4}] {"text": "Weakness II"}
+tellraw @s[scores={nu_effect=-3..-1}] {"text": "Weakness I", "color": "red"}
+tellraw @s[scores={nu_effect=..-4}] {"text": "Weakness II", "color": "red"}
 
 # print mining fatigue
-tellraw @s[scores={nu_effect=..-7}] {"text": "Mining Fatigue"}
+tellraw @s[scores={nu_effect=..-7}] {"text": "Mining Fatigue", "color": "red"}
 
 # print nausea
-tellraw @s[scores={nu_effect=..-10}] {"text": "Nausea...hard"}
+tellraw @s[scores={nu_effect=..-10}] {"text": "Nausea...hard", "color": "red"}

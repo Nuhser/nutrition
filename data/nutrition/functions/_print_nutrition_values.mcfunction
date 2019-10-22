@@ -31,13 +31,14 @@ tellraw @s[nbt={SelectedItem:{id:"minecraft:cooked_salmon"}}] [{"text": "\nValue
 
 tellraw @s[nbt={SelectedItem:{id:"minecraft:cookie"}}] [{"text": "\nValue of Cookie:\n", "italic": true}, {"text": "Grain ", "color": "gold"}, {"text": "0.032%", "color": "dark_purple"}]
 
-tellraw @s[nbt={SelectedItem:{id:"minecraft:dried_kelp"}}] [{"text": "\nValue of Dried Kelp:\n", "italic": true}, {"text": "?"}, {"text": "0.24%", "color": "dark_purple"}]
+tellraw @s[nbt={SelectedItem:{id:"minecraft:dried_kelp"}}] [{"text": "\nValue of Dried Kelp:\n", "italic": true}, {"text": "Vegetable"}, {"text": "0.24%", "color": "dark_purple"}]
 
 tellraw @s[nbt={SelectedItem:{id:"minecraft:golden_apple"}}] [{"text": "\nValue of Golden Apple:\n", "italic": true}, {"text": "Fruit ", "color": "red"}, {"text": "1.44%", "color": "dark_purple"}]
 
 tellraw @s[nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] [{"text": "\nValue of Golden Carrot:\n", "italic": true}, {"text": "Vegetable ", "color": "dark_green"}, {"text": "3.456%", "color": "dark_purple"}]
 
-tellraw @s[nbt={SelectedItem:{id:"minecraft:honey_bottle"}}] [{"text": "\nValue of Honey Bottle:\n", "italic": true}, {"text": "?"}, {"text": "0.576%", "color": "dark_purple"}]
+# upcoming 1.15
+# tellraw @s[nbt={SelectedItem:{id:"minecraft:honey_bottle"}}] [{"text": "\nValue of Honey Bottle:\n", "italic": true}, {"text": "?"}, {"text": "0.576%", "color": "dark_purple"}]
 
 tellraw @s[nbt={SelectedItem:{id:"minecraft:melon_slice"}}] [{"text": "\nValue of Melon Slice:\n", "italic": true}, {"text": "Fruit ", "color": "red"}, {"text": "0.096%", "color": "dark_purple"}]
 

@@ -5,7 +5,7 @@
 			"trigger": "consume_item",
 			"conditions": {
 				"item": {
-					"item": "minecraft:raw_porkchop"
+					"item": "minecraft:porkchop"
 				}
 			}
 		}

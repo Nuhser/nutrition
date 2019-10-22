@@ -5,7 +5,7 @@
 			"trigger": "consume_item",
 			"conditions": {
 				"item": {
-					"item": "minecraft:notch_apple"
+					"item": "minecraft:enchanted_golden_apple"
 				}
 			}
 		}

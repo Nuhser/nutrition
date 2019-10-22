@@ -5,7 +5,7 @@
 			"trigger": "consume_item",
 			"conditions": {
 				"item": {
-					"item": "minecraft:steak"
+					"item": "minecraft:cooked_beef"
 				}
 			}
 		}

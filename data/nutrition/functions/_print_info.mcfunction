@@ -18,7 +18,7 @@ scoreboard players operation @s nu_dairy = @s nu_dairy_ex
 scoreboard players operation @s nu_dairy /= $1000 nuhser_constants
 
 # print infos
-tellraw @s {"text": "\nYour nutrition scores:"}
+tellraw @s {"text": "\nYour nutrition scores:", "italic": true}
 
 # print protein
 tellraw @s[scores={nu_protein=..9}] [{"text": "   Protein: "}, {"score": {"name": "@s", "objective": "nu_protein"}, "color": "red"}, {"text": "%", "color": "red"}]

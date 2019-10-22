@@ -55,5 +55,8 @@ tellraw @s[scores={nu_dairy=30..59}] [{"text": "   Dairy: "}, {"score": {"name":
 tellraw @s[scores={nu_dairy=60..89}] [{"text": "   Dairy: "}, {"score": {"name": "@s", "objective": "nu_dairy"}, "color": "dark_aqua"}, {"text": "%", "color": "dark_aqua"}]
 tellraw @s[scores={nu_dairy=90..}] [{"text": "   Dairy: "}, {"score": {"name": "@s", "objective": "nu_dairy"}, "color": "dark_green"}, {"text": "%", "color": "dark_green"}]
 
+# print nutrition value(s) of selected item
+execute unless entity @s[nbt={SelectedItem:{id:"minecraft:air"}}] run function nutrition:_print_nutrition_values
+
 # reset trigger
 scoreboard players set @s nutritions 0

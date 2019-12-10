@@ -5,7 +5,7 @@
 tellraw @a[scores={help=1}] [{"text": ">  "}, {"text": "[Nutrition]", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/trigger help set 17"}}]
 
 # explanation of nuhser mod
-tellraw @a[scores={help=17}] [{"text": "\nNutrition", "underlined": true, "color": "dark_aqua"}, {"text": " (v1.0.0-beta)", "underlined": false}]
+tellraw @a[scores={help=17}] [{"text": "\nNutrition", "underlined": true, "color": "dark_aqua"}, {"text": " (v1.0.0-beta2)", "underlined": false}]
 
 tellraw @a[scores={help=17}] [{"text": "This datapack aims to fix the bad balance of Minecraft's food items. From now on you have five nutrition scores:"}]
 tellraw @a[scores={help=17}] [{"text": "Protein", "bold": true}, {"text": ", ", "bold": false}, {"text": "Fruit", "bold": true}, {"text": ", ", "bold": false}, {"text": "Vegetable", "bold": true}, {"text": ", ", "bold": false}, {"text": "Grain", "bold": true}, {"text": " and ", "bold": false}, {"text": "Dairy", "bold": true}]

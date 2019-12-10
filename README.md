@@ -4,7 +4,7 @@
 
 <br>
 
-**Requires [nuhser_core v3.0.5](https://github.com/Nuhser/nuhser_core/releases/tag/v3.0.5 "Nuhser_Core") (or above) to be installed first!**
+**Requires [nuhser_core v4.0.0](https://github.com/Nuhser/nuhser_core/releases "Nuhser_Core") or newer to be installed first!**
 
 This datapack aims to fix the bad balance of Minecraft's food items. From now on you have five nutrition scores:
 

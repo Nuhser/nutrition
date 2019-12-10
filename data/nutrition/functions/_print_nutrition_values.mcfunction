@@ -37,8 +37,7 @@ tellraw @s[nbt={SelectedItem:{id:"minecraft:golden_apple"}}] [{"text": "\nValue 
 
 tellraw @s[nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] [{"text": "\nValue of Golden Carrot:\n", "italic": true}, {"text": "Vegetable ", "color": "dark_green", "italic": false}, {"text": "3.456%", "color": "yellow", "italic": false}]
 
-# upcoming 1.15
-# tellraw @s[nbt={SelectedItem:{id:"minecraft:honey_bottle"}}] [{"text": "\nValue of Honey Bottle:\n", "italic": true}, {"text": "?", "italic": false}, {"text": "0.576%", "color": "yellow", "italic": false}]
+tellraw @s[nbt={SelectedItem:{id:"minecraft:honey_bottle"}}] [{"text": "\nValue of Honey Bottle:\n", "italic": true}, {"text": "Dairy", "color": "aqua", "italic": false}, {"text": "0.576%", "color": "yellow", "italic": false}]
 
 tellraw @s[nbt={SelectedItem:{id:"minecraft:melon_slice"}}] [{"text": "\nValue of Melon Slice:\n", "italic": true}, {"text": "Fruit ", "color": "light_purple", "italic": false}, {"text": "0.096%", "color": "yellow", "italic": false}]
 

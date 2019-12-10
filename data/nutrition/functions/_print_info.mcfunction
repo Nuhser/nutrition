@@ -3,19 +3,19 @@
 
 # calculate rounded scores
 scoreboard players operation @s nu_protein = @s nu_protein_ex
-scoreboard players operation @s nu_protein /= $1000 nuhser_constants
+scoreboard players operation @s nu_protein /= $1000 nc_constants
 
 scoreboard players operation @s nu_fruit = @s nu_fruit_ex
-scoreboard players operation @s nu_fruit /= $1000 nuhser_constants
+scoreboard players operation @s nu_fruit /= $1000 nc_constants
 
 scoreboard players operation @s nu_vegetable = @s nu_vegetable_ex
-scoreboard players operation @s nu_vegetable /= $1000 nuhser_constants
+scoreboard players operation @s nu_vegetable /= $1000 nc_constants
 
 scoreboard players operation @s nu_grain = @s nu_grain_ex
-scoreboard players operation @s nu_grain /= $1000 nuhser_constants
+scoreboard players operation @s nu_grain /= $1000 nc_constants
 
 scoreboard players operation @s nu_dairy = @s nu_dairy_ex
-scoreboard players operation @s nu_dairy /= $1000 nuhser_constants
+scoreboard players operation @s nu_dairy /= $1000 nc_constants
 
 # print infos
 tellraw @s {"text": "\nYour nutrition scores:", "italic": true}

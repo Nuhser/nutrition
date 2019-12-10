@@ -1,5 +1,5 @@
 #> This is the core function for Nutrition. It runs once per second.
-# Called by: #nuhser_core:second <SERVER>
+# Called by: #nuhser_core:_second <SERVER>
 
 # enable trigger for all players
 scoreboard players enable @a nutritions
